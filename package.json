@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "node C:/Users/USUARIO/coding/Maling/src/app.js"
+    "start": "C:/Users/USUARIO/coding/Maling/src/app.js"
 },
   "type": "module",
   "dependencies": {
