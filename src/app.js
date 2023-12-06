@@ -74,6 +74,8 @@ app.post('/procesar-formulario', async (req, res) => {
 app.get('/', (req, res) => {
   res.render('index', {});
 });
-
+app.get('/health', (req, res) => {
+    res.status(200).send('OK');
+  });
 
 app.listen(8080, () => console.log('Listening'));
