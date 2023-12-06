@@ -58,7 +58,7 @@ app.post('/procesar-formulario', async (req, res) => {
             <center>
             <p>TU CUPON ES</p>
             <p>${codigo}</p>
-            <img src="${img}"/>
+            <img src="${img}" style="padding: 100px;"/>
             <h2><b>Condiciones de uso:</b></h2>
             <p>* El cupón debe utilizarse en una única compra pudiendo elegir todos los artículos que quieras. Si hay una diferencia, podras abonar en cualquier medio de pago disponible.
             <br>* Los gastos de envío no están incluidos en el cupón.
