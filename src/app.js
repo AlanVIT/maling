@@ -35,7 +35,7 @@ const transport = nodemailer.createTransport(mailConfig);
 app.post('/procesar-formulario', async (req, res) => {
     const { mailDestinatario, dedicatoria, remitente, codigo, monto } = req.body;
     
-    let img = `https://maling-production.up.railway.app/assets/Gift_Cards_Imagenes/Gift Card ${monto}.png`
+    let img = `https://maling-production.up.railway.app/public/assets/Gift_Cards_Imagenes/Gift Card ${monto}.png`
     
     try {
         await transport.sendMail({
