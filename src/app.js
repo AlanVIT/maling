@@ -57,7 +57,7 @@ app.post('/procesar-formulario', async (req, res) => {
             Envianos un mensaje al whatsapp 116911-6683 con al menos un día de anticipación para que te cambiemos el código por otro que deberás mostrar al realizar la compra en cualquiera de nuestros locales.</p>
             <center>
             <p>TU CUPON ES</p>
-            <p>${codigo}</p>
+            <p style="margin-block-start: -10px;">${codigo}</p>
             <img src="${img}" style="width: 500px;"/>
             <h2><b>Condiciones de uso:</b></h2>
             <p>* El cupón debe utilizarse en una única compra pudiendo elegir todos los artículos que quieras. Si hay una diferencia, podras abonar en cualquier medio de pago disponible.
