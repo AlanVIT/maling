@@ -6,6 +6,7 @@ import path from 'path';
 import __dirname from './utils/utils.js' 
 
 const app = express();
+const port = process.env.PORT || 3000
 
 app.engine('hbs', expressHandlebars.engine({
     extname: 'hbs', // Extensión de archivos Handlebars
@@ -78,4 +79,4 @@ app.get('/health', (req, res) => {
     res.status(200).send('OK');
   });
 
-app.listen(8080, () => console.log('Listening'));
+app.listen(port, () => console.log('Listening'));
