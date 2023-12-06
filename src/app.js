@@ -44,7 +44,7 @@ app.post('/procesar-formulario', async (req, res) => {
             subject: 'Gift card',
             html: `
             <center>
-            <h1>${dedicatoria}</h1>
+            <h1>❤${dedicatoria}❤</h1>
             <h3>${remitente}</h3>
             <h2>Te enviaron una GIFT CARD de ZOOM !!!!</h2>
             </center>
@@ -57,12 +57,12 @@ app.post('/procesar-formulario', async (req, res) => {
             Envianos un mensaje al whatsapp 116911-6683 con al menos un día de anticipación para que te cambiemos el código por otro que deberás mostrar al realizar la compra en cualquiera de nuestros locales.</p>
             <center>
             <p>TU CUPON ES</p>
-            <h2>${codigo}</h2>
+            <p>${codigo}</p>
             <img src="${img}"/>
             <h2><b>Condiciones de uso:</b></h2>
             <p>* El cupón debe utilizarse en una única compra pudiendo elegir todos los artículos que quieras. Si hay una diferencia, podras abonar en cualquier medio de pago disponible.
-            * Los gastos de envío no están incluidos en el cupón.
-            * No se reintegra la diferencia en caso de saldo a favor</p>
+            <br>* Los gastos de envío no están incluidos en el cupón.
+            <br>* No se reintegra la diferencia en caso de saldo a favor</p>
             </center>
             `
         });
