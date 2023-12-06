@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start": "node C:/Users/USUARIO/coding/Maling/src/app.js"
+},
   "type": "module",
   "dependencies": {
     "dockerfile": "^0.1.1",
